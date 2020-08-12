@@ -1,0 +1,141 @@
+<html>
+<head>
+  <script type="text/javascript">
+  function addnumA(n1,n2,n3,n4,n5,n6,n11,n21,n31,n41,n51,n61,n12,n22,n32,n42,n52,n62,n102,n103,n104)
+  {var no1=parseFloat(n1)
+  var no2=parseFloat(n2)
+  var no3=no2-no1
+myform.btn10a.value=no3
+
+var no4=parseFloat(n3)
+var no5=parseFloat(n4)
+var no6=no5-no4
+myform.btn10b.value=no6
+
+var no7=parseFloat(n5)
+var no8=parseFloat(n6)
+var no9=no8-no7
+myform.btn10c.value=no9
+
+var no11=parseFloat(n11)
+var no21=parseFloat(n21)
+var no31=no21-no11
+myform.btn11a.value=no31
+
+var no41=parseFloat(n31)
+var no51=parseFloat(n41)
+var no61=no51-no41
+myform.btn11b.value=no61
+
+var no71=parseFloat(n51)
+var no81=parseFloat(n61)
+var no91=no81-no71
+myform.btn11c.value=no91
+
+var no12=parseFloat(n12)
+var no22=parseFloat(n22)
+var no32=no22-no12
+myform.btn12a.value=no32
+
+var no42=parseFloat(n32)
+var no52=parseFloat(n42)
+var no62=no52-no42
+myform.btn12b.value=no62
+
+var no72=parseFloat(n52)
+var no82=parseFloat(n62)
+var no92=no82-no72
+myform.btn12c.value=no92
+
+
+
+  myform.btn30a.value=n102
+  myform.btn30b.value=n103
+  myform.btn30c.value=n104
+
+
+}
+
+
+
+
+</script>
+</head>
+<body>
+<form name=myform action="index1.html" id="txt">
+
+
+<input type=text name=btn5>cage<br>
+
+<br>
+<input type=text name=btn83>cage<br><br>
+<input type=text name=btn84>cage<br><br>
+<br>
+<br>
+<b><i><mark>view 1</mark></i></b>
+<br>
+  <b>Please input in hh format, not in hh:mm</b>
+<br>
+
+<br>
+for Cage 1
+<br>
+<br>
+Station A     Start<input type=text name=btn7caa>  End  <input type=text name=btn7cab><br>
+Station B     Start<input type=text name=btn8caa>   End  <input type=text name=btn8cab><br>
+Station C     Start<input type=text name=btn9caa>   End  <input type=text name=btn9cab><br>
+<br>
+for Cage 2
+<br>
+<br>
+Station A     Start<input type=text name=btn7cba>  End  <input type=text name=btn7cbb><br>
+Station B     Start<input type=text name=btn8cba>   End  <input type=text name=btn8cbb><br>
+Station C     Start<input type=text name=btn9cba>   End  <input type=text name=btn9cbb><br>
+<br>
+
+for Cage 3
+<br>
+<br>
+Station A     Start<input type=text name=btn7cca>  End  <input type=text name=btn7ccb><br>
+Station B     Start<input type=text name=btn8cca>   End  <input type=text name=btn8ccb><br>
+Station C     Start<input type=text name=btn9cca>   End  <input type=text name=btn9ccb><br>
+<br>
+<br>
+
+
+<input type=button name=btn4a value=CHECk_for_cages onclick="addnumA(btn7caa.value,btn7cab.value,btn8caa.value,btn8cab.value,btn9caa.value,btn9cab.value,btn7cba.value,btn7cbb.value,btn8cba.value,btn8cbb.value,btn9cba.value,btn9cbb.value,btn7cca.value,btn7ccb.value,btn8cca.value,btn8ccb.value,btn9cca.value,btn9ccb.value,btn5.value,btn83.value,btn84.value)"><br><br>
+
+
+
+
+
+<b><i><mark>view 2</mark></i></b>
+<table style="width:100%">
+  <tr>
+    <th>Cages</th>
+    <th>StationA</th>
+    <th>StationB</th>
+    <th>StationC</th>
+  </tr>
+  <tr>
+    <td>Cage<input type=text name=btn30a></td>
+    <td><input type=text name=btn10a></td>
+    <td><input type=text name=btn10b></td>
+    <td><input type=text name=btn10c></td>
+  </tr>
+  <tr>
+    <td>Cage<input type=text name=btn30b></td>
+    <td><input type=text name=btn11a></td>
+    <td><input type=text name=btn11b></td>
+    <td><input type=text name=btn11c></td>
+  </tr>
+  <tr>
+    <td>Cage<input type=text name=btn30c></td>
+    <td><input type=text name=btn12a></td>
+    <td><input type=text name=btn12b></td>
+    <td><input type=text name=btn12c></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
